@@ -8,6 +8,9 @@ namespace HackerRank
 {
     class HashTable
     {
+        /// <summary>
+        /// Hacker Rank Problem: https://www.hackerrank.com/challenges/ctci-ransom-note/problem
+        /// </summary>
         public static void Solution()
         {
             int n = Convert.ToInt32(Console.ReadLine());

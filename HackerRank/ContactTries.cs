@@ -6,6 +6,9 @@ namespace HackerRank
 {
     class ContactTries
     {
+        /// <summary>
+        /// Hacker Rank Problem: https://www.hackerrank.com/challenges/ctci-contacts/problem
+        /// </summary>
         public static void Solution()
         {
             int n = Convert.ToInt32(Console.ReadLine());

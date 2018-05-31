@@ -6,6 +6,9 @@ namespace HackerRank
 {
     class RunningMedian
     {
+        /// <summary>
+        /// Hacker Rank Problem: https://www.hackerrank.com/challenges/ctci-find-the-running-median/problem
+        /// </summary>
         public static void Solution()
         {
             int size = Convert.ToInt32(Console.ReadLine());

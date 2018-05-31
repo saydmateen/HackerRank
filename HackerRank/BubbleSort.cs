@@ -6,6 +6,9 @@ namespace HackerRank
 {
     class BubbleSort
     {
+        /// <summary>
+        /// Hacker Rank Problem: https://www.hackerrank.com/challenges/ctci-bubble-sort/problem
+        /// </summary>
         public static void Solution()
         {
             int n = Convert.ToInt32(Console.ReadLine());

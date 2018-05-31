@@ -6,17 +6,17 @@ namespace HackerRank
 {
     class HashNoteReplica
     {
-        const string yes = "Yes";
-        const string no = "No";
         /// <summary>
         /// Hacker Rank Problem: https://www.hackerrank.com/challenges/ctci-ransom-note/problem
         /// </summary>
+        const string y = "Yes";
+        const string n = "No";
         public static void Solution()
         {
             string[] token = Console.ReadLine().Split(' ');
             if (Convert.ToInt32(token[0]) < Convert.ToInt32(token[1]))
             {
-                Console.WriteLine(no);
+                Console.WriteLine(n);
                 return;
             }
 
@@ -49,12 +49,12 @@ namespace HackerRank
                 }
                 else
                 {
-                    Console.WriteLine(no);
+                    Console.WriteLine(n);
                     return;
                 } 
             }
 
-            Console.WriteLine(yes);
+            Console.WriteLine(y);
         }
     }
 }
