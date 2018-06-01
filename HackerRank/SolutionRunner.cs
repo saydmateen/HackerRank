@@ -18,7 +18,8 @@ namespace HackerRank
             // ContactTries.Solution();
             // BubbleSort.Solution();
             // MergeSort.Solution();
-            HashTable.Solution();
+            // HashTable.Solution();
+            DFSGrid.Solution();
         }
     }
 }
