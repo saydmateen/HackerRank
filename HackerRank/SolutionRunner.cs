@@ -19,7 +19,8 @@ namespace HackerRank
             // BubbleSort.Solution();
             // MergeSort.Solution();
             // HashTable.Solution();
-            DFSGrid.Solution();
+            // DFSGrid.Solution();
+            PermArray.Solution();
         }
     }
 }
